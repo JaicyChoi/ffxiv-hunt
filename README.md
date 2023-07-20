@@ -1,12 +1,12 @@
 # 파이널 판타지14 한국 서버 필드 마물 검색 페이지
-https://jaicychoi.github.io/search or https://ffxiv-hunt.ml/
+https://jaicychoi.github.io/ffxiv-hunt
+
+<b>※2023-07-20 업데이트</b><br/>
+- 사이트 주소가 변경 되었습니다. 기존(https://jaicychoi.github.io/search)에서 신규(https://jaicychoi.github.io/ffxiv-hunt)로 변경.
+
 
 <b>※2022-09-03 업데이트</b><br/>
 - 대도시나 거점 에테라이트 근처의 NPC들에게서 들을 수 있는 정예 마물(B/A/S 급)의 비하인드 스토리를 사이트에서도 볼 수 있도록 스크립트를 추가하였습니다. 정예 마물 검색 결과의 우측에서 추가된 스토리를 클릭하여 보실 수 있습니다. 키워드 '정예마물'로 검색하시면 모든 정예 마물만 모아서 볼 수 있습니다.
-
-
-<b>※2022-08-18 업데이트</b><br/>
-- 사이트 주소가 업데이트 되었습니다( https://ffxiv-hunt.ml/ ). 물론 기존의 주소도 사용가능합니다.
 
 
 <b>※2022-07-25 업데이트</b><br/>
