@@ -1,0 +1,388 @@
+@media screen and (max-width:1200px){
+    .notice_wrapper, .notice_btn_wrapper{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 980px){
+    .patch_version{
+        width: 97%;
+    }
+    .info{
+        width: 95%;
+    }
+    .map{
+        width: 95%;
+    }
+    .results{
+        width: 95%;
+    }
+    .layer_content:after{
+        width: 95%;
+    }
+    .notice_wrapper{
+        margin-top: 100px;
+    }
+    .notice_content{
+        padding: 30px 25px 30px 50px;
+    }
+    .notice_content::-webkit-scrollbar{
+        width: 13px;
+    }
+    .notice_content::-webkit-scrollbar-thumb {
+        border: 4px solid transparent;
+    }
+    .notice_content::-webkit-scrollbar-thumb:hover{
+        border: 4px solid transparent;
+    }
+    .close_btn{
+        right: 11px;
+        width: 23px;
+        height: 23px;
+    }
+}
+@media screen and (max-width: 950px){
+    .name_align{
+        width: 140%;
+    }
+    .location_align{
+        left: 55px;
+    }
+}
+@media screen and (max-width: 900px){
+    .name_align{
+        width: 135%;
+    }
+    .blu_skill, .skill_wrapper, .fate_title{
+        display: none;
+    }
+    .location_align{
+        left: 15px;
+    }
+}
+@media screen and (max-width: 768px){
+    body{
+        font-size: 0.9em;
+    }
+    .td_level{
+        width: 8%
+    }
+    .td_name{
+        width: 33%;
+    }
+    .td_location{
+        width: 28%;
+    }
+    .location_align{
+        left: 0px;
+    }
+    .td_drop{
+        width: 25%;
+    }
+    .top_button{
+        width: 45px;
+        bottom: 20px;
+        transform: translateY(95px);
+    }
+    .top_button:before{
+        margin-bottom: 3px;
+    }
+    .notice_wrapper{
+        margin-top: 90px;
+    }
+    .notice_content{
+        padding: 30px 30px 30px 50px;
+    }
+    .notice_content::-webkit-scrollbar{
+        width: 10px;
+    }
+    .notice_content::-webkit-scrollbar-thumb {
+        border: 3px solid transparent;
+    }
+    .notice_content::-webkit-scrollbar-thumb:hover{
+        border: 3px solid transparent;
+    }
+    .script_wrapper{
+        width: 425px;
+    }
+    .script_title{
+        margin-top: 40px;
+        margin-bottom: 35px;
+        font-size: 1.35em;
+    }
+    .script{
+        margin-bottom: 25px;
+        font-size: 1.1em;
+    }
+    .npc{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 620px){
+    .patch_version p{
+        font-size: 0.825em;
+    }
+    .title{
+        margin-top: 60px;
+    }
+    .search{
+        width: 75%;
+    }
+    .submit{
+/*         display: block; */
+    }
+    .td_level{
+        width: 8%
+    }
+    .td_drop{
+        width: 31%;
+    }
+    .hunt_icon{
+        width: 10px;
+        height: 15px;
+        padding-left: 3.5px;
+    }
+    .SAB_icon{
+        width: 13px;
+        min-width: 13px;
+        padding-left: 3.5px;
+    }
+    .log_icon{
+        width: 17px;
+        left: 1px;
+    }
+    .blu_icon{
+        margin-left: 5px;
+        width: 19px;
+    }
+    .fate_icon{
+        width: 19px;
+    }
+    .td_coordinate{
+        display: none;
+    }
+    .notice_btn, .guide_btn{
+        width: 85px;
+        height: 62px;
+        font-size: 0.97em;
+        line-height: 89px;
+    }
+    .notice_btn:hover, .notice_btn.hold, .guide_btn:hover, .guide_btn.hold{
+        top: -10px;
+    }
+    .notice_wrapper{
+        margin-top: 12.5%;
+    }
+    .notice_content{
+        padding: 25px 20px 25px 40px;
+        max-height: 70vh;
+    }
+    .notice_content::-webkit-scrollbar{
+        width: 10px;
+    }
+    .close_btn{
+        right: 10px;
+        width: 20px;
+        height: 20px;
+    }
+    .info{
+        font-size: 1.1em;
+    }
+}
+@media screen and (max-width: 480px){
+    body{
+        font-size: 0.85em;
+    }
+    .patch_version p{
+        font-size: 0.8em;
+    }
+    .search{
+        width: 80%;
+        height: 48px;
+        border-radius: 24px;
+    }
+    .show_table{
+        line-height: 16px;
+    }
+    .top_button{
+        width: 40px;
+        bottom: 20px;
+        transform: translateY(95px);
+    }
+    .top_button:before{
+        font-size: 0.8em;
+        letter-spacing: 1.3px;
+        margin-bottom: 3px;
+    }
+    .notice_content{
+        padding: 20px 23px 20px 35px;
+    }
+    .notice_content::-webkit-scrollbar{
+        width: 4px;
+    }
+    .notice_content::-webkit-scrollbar-thumb {
+        background-clip: unset;
+        border: none;
+    }
+    .notice_content::-webkit-scrollbar-thumb:hover{
+        border: none;
+    }
+    .notice_btn, .guide_btn{
+        width: 80px;
+        height: 60px;
+        font-size: 0.95em;
+        line-height: 88px;
+    }
+    .notice_btn:hover, .notice_btn.hold, .guide_btn:hover, .guide_btn.hold{
+        top: -15px;
+    }
+    .close_btn{
+        right: 8px;
+        width: 18px;
+        height: 18px;
+    }
+    .content_text{
+        position: relative;
+        margin-top: 10px;
+    }
+    .name_align{
+        width: 100%;
+    }
+    .blu_icon, .fate_icon{
+        width: 18px;
+    }
+    .zodiac_icon{
+        margin-left: 0px;
+        margin-right: -2px;
+        width: 22px;
+    }
+    .blu_skill{
+        position: relative;
+        float: left;
+        font-size: 0.8em;
+    }
+    .blu_skill:before{
+        content: none;    
+    }
+    .info{
+        font-size: 1em;
+        padding: 8px 0px 8px 0px;
+    }
+    .script_wrapper{
+        width: 360px;
+    }
+    .script_title{
+        margin-top: 30px;
+        margin-bottom: 27px;
+    }
+    .script{
+        margin-bottom: 15px;
+        font-size: 1.085em;
+    }
+    .npc{
+        font-size: 0.95em;
+    }
+}
+@media screen and (max-width: 400px){
+    .patch_version p{
+        font-size: 0.785em;
+    }
+    .search{
+        height: 46px;
+        border-radius: 23px;
+    }
+    .notice_btn, .guide_btn{
+        width: 78px;
+        height: 59px;
+        font-size: 0.95em;
+        line-height: 87px;
+    }
+    .notice_btn:hover, .notice_btn.hold, .guide_btn:hover, .guide_btn.hold{
+        top: -17px;
+    }
+    .td_name{
+        width: 33%;
+    }
+    .name_align{
+        text-indent: 2px;
+    }
+    .td_location{
+        width: 28%;
+    }
+    .hunt_icon, .SAB_icon, .log_icon{
+        display: none;
+    }
+    .blu_icon, .fate_icon{
+        margin-left: 4px;
+        width: 17px;
+    }
+    .zodiac_icon{
+        margin-right: -4px;
+        width: 21px;
+    }
+    .info{
+        font-size: 0.97em;
+        padding: 7px 0px 7px 0px;
+    }
+    .script_wrapper{
+        width: 310px;
+    }
+    .script_title{
+        margin-top: 25px;
+        margin-bottom: 20px;
+        font-size: 1.2em;
+    }
+    .script{
+        margin-bottom: 13px;
+        font-size: 0.985em;
+        line-height: 1.2em;
+    }
+}
+@media screen and (max-width: 320px){
+    body{
+        font-size: 0.8em;
+    }
+    .notice_btn, .guide_btn{
+        width: 73px;
+        height: 58px;
+        font-size: 0.95em;
+        line-height: 87px;
+    }
+    .search{
+        height: 44px;
+        border-radius: 22px;
+    }
+    .delete_value{
+        width: 18px;
+        height: 20px;
+        right: 27px;
+        top: 12px;
+    }
+    .notice_content{
+        top: 10px;
+    }
+    .close_btn{
+        top: 21px;
+    }
+    .info{
+        font-size: 0.9125em;
+        padding: 6px 0px 6px 0px;
+    }
+    .script_wrapper{
+        width: 285px;
+    }
+    .text_wrapper{
+        width: 90%;
+    }
+    .script_title{
+        margin-top: 20px;
+        margin-bottom: 17px;
+        font-size: 1.15em;
+    }
+    .script{
+        margin-bottom: 11px;
+        font-size: 0.985em;
+    }
+    .npc{
+        font-size: 0.875em;
+    }
+}
