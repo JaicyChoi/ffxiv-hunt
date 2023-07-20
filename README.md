@@ -1,8 +1,9 @@
 # 파이널 판타지14 한국 서버 필드 마물 검색 페이지
 https://jaicychoi.github.io/ffxiv-hunt
 
+
 <b>※2023-07-20 업데이트</b><br/>
-- 사이트 주소가 변경 되었습니다. 기존(https://jaicychoi.github.io/search/)에서 신규(https://jaicychoi.github.io/ffxiv-hunt/)로 변경.
+- 사이트 주소가 변경 되었습니다. 기존(https://jaicychoi.github.io/search/ )에서 신규(https://jaicychoi.github.io/ffxiv-hunt/ )로 변경.
 
 
 <b>※2022-09-03 업데이트</b><br/>
