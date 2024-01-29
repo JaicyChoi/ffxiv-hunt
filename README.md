@@ -1,6 +1,9 @@
 # 파이널 판타지14 한국 서버 필드 마물 검색 페이지
 https://jaicychoi.github.io/ffxiv-hunt
 
+<b>※2024-01-29 업데이트</b><br/>
+- v6.45 청마도사 레벨 확장에 따른 필드 몬스터에게서 습득 가능한 청마법 정보가 추가되었습니다.
+
 
 <b>※2023-07-20 업데이트</b><br/>
 - 사이트 주소가 변경 되었습니다. 기존(https://jaicychoi.github.io/search/ )에서 신규(https://jaicychoi.github.io/ffxiv-hunt/ )로 변경.

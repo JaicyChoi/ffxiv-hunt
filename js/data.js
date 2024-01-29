@@ -179,6 +179,8 @@ let DATA = {
         {level: '90', hunt: 'SS', name: '케르', location: '울티마 툴레', coordinate: '( 15.0, 29.0 )', drop: '&nbsp', nickname: '케르'},
     ],
     Amh_Araeng: [
+        {level: '70', hunt: true, name: '사막 아르마딜로', location: '아므 아랭', coordinate: '( 31.9, 10.7 )', drop: '&nbsp'},
+        {level: '70', hunt: true, name: '미끌미끌 아르마딜로', location: '아므 아랭', coordinate: '( 32.6, 9.3 )', drop: '&nbsp', blu: true, skill: ['No.108 보습']},
         {level: '70', hunt: true, name: '기가텐더', location: '아므 아랭', coordinate: '( 32.8, 10.0 )', drop: '&nbsp'},
         {level: '70', hunt: false, name: '톨바', location: '아므 아랭', coordinate: '( 31.6, 22.5 )', drop: '&nbsp'},
         {level: '70', hunt: true, name: '모래두더지', location: '아므 아랭', coordinate: '( 31.6, 22.5 )', drop: '&nbsp'},
@@ -201,7 +203,8 @@ let DATA = {
         {level: '76', hunt: true, name: '코요테', location: '아므 아랭', coordinate: '( 21.5, 9.9 )', drop: '&nbsp'},
         {level: '77', hunt: true, name: '모래도롱뇽', location: '아므 아랭', coordinate: '( 23.7, 31.6 )', drop: '&nbsp'},
         {level: '77', hunt: true, name: '화염 조누르', location: '아므 아랭', coordinate: '( 27.0, 34.7 )', drop: ['<a href=\'https://ff14.tar.to/item/view/27735\' target=\'_blank\'>조누르 생가죽</a>']},
-        {level: '77', hunt: true, name: '긴꼬리 아르마딜로', location: '아므 아랭', coordinate: '( 17.4, 31.8 )', drop: '&nbsp'},
+        {level: '77', hunt: true, name: '긴꼬리 아르마딜로', location: '아므 아랭', coordinate: '( 15.2, 29.7 )', drop: '&nbsp', blu: true, skill: ['No.107 방패막이']},
+        {level: '77', hunt: true, name: '단단비늘 아르마딜로', location: '아므 아랭', coordinate: '( 32.6, 9.3 )', drop: '&nbsp', blu: true, skill: ['No.108 보습']},
         {level: '77', hunt: true, name: '주인 없는 탈로스', location: '아므 아랭', coordinate: '( 11.5, 31.5 )', drop: '&nbsp'},
         {level: '80', hunt: 'B', name: '학살 곡예마', location: '아므 아랭', coordinate: '지도 참조', drop: '&nbsp', nickname: '학살의 곡예사'},
         {level: '80', hunt: 'B', name: '우물지렁이', location: '아므 아랭', coordinate: '지도 참조', drop: '&nbsp', nickname: '큰 우물의 거룡'},
@@ -306,7 +309,7 @@ let DATA = {
         {level: '80', hunt: 'SS', name: '면죄된 폭동', location: '일 메그', coordinate: '( 13.4, 22.8 )', drop: '&nbsp', nickname: '반역의 장군'},
     ],
     Kholusia: [
-        {level: '70', hunt: true, name: '홉고블린', location: '콜루시아 섬', coordinate: '( 35.5, 30.2 )', drop: '&nbsp'},
+        {level: '70', hunt: true, name: '홉고블린', location: '콜루시아 섬', coordinate: '( 35.5, 30.2 )', drop: '&nbsp', blu: true, skill: ['No.105 고블린 주먹']},
         {level: '70', hunt: true, name: '채찍꼬리 도마뱀', location: '콜루시아 섬', coordinate: '( 32.5, 26.7 )', drop: '&nbsp'},
         {level: '70', hunt: true, name: '마울타쉬', location: '콜루시아 섬', coordinate: '( 32.5, 26.7 )', drop: '&nbsp'},
         {level: '70', hunt: true, name: '콜루시아 이구아나', location: '콜루시아 섬', coordinate: '( 28.5, 30.6 )', drop: '&nbsp'},
