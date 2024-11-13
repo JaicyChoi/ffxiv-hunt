@@ -47,6 +47,10 @@ body::-webkit-scrollbar {
     font-size: 1.25em;
     font-weight: 600;
 }
+.notice_font_style{
+    color: rgb(201, 0, 0);
+    font-style: italic;
+}
 .notice_wrapper{
     position: absolute;
     margin-top: 125px;
@@ -95,6 +99,12 @@ body::-webkit-scrollbar {
 }
 .notice_btn:focus{
     outline: none;
+}
+.notice_dot{
+    position: absolute;
+    color: red;
+    font-size: 0.3em;
+    top:-6px;
 }
 .guide_btn{
     position: relative;
