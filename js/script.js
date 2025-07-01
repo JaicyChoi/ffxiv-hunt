@@ -106,7 +106,7 @@ submit.addEventListener('click', (event) => {
     let count = 0;
     let monster_name;
 
-    if( keywords.trim().length === 0 || exception.test(keywords) || keywords === '.' || Number(keywords) > 90 ) not_found();
+    if( keywords.trim().length === 0 || exception.test(keywords) || keywords === '.' || Number(keywords) > 100 ) not_found();
     // if( keywords.trim().length === 0 || exception.test(keywords) || keywords === '.' || 
     // Number(keywords) < 50 || Number(keywords) > 80 ) not_found();
     else
@@ -139,7 +139,7 @@ submit.addEventListener('click', (event) => {
                 img.alt = '마물 수배서 대상';
                 td_hunt.appendChild(img);
             }
-            else if( info.hunt === 'B' || info.hunt === 'T' )
+            else if( info.hunt === 'B' )
             {
                 let img = document.createElement('img');
                 img.classList.add('SAB_icon');
@@ -148,7 +148,7 @@ submit.addEventListener('click', (event) => {
                 else img.alt = '트리거 몹'; 
                 td_hunt.appendChild(img);
             }
-            else if( info.hunt === 'A' || info.hunt === 'S' || info.hunt === 'SS' )
+            else if( info.hunt === 'T' || info.hunt === 'A' || info.hunt === 'S' || info.hunt === 'SS' )
             {
                 let img = document.createElement('img');
                 img.classList.add('SAB_icon');
@@ -393,6 +393,7 @@ function viewMap(){
     let found = false;
 
     //handling overlapped monster name
+    //ARR
     if( this.nextSibling.innerText === '검은장막 숲 북부삼림' )
         img.src = 'map/North_Shroud/' + this.firstChild.firstChild.innerText + '.jpg';
     else if( this.nextSibling.innerText === '검은장막 숲 동부삼림' )
@@ -424,8 +425,10 @@ function viewMap(){
     else if( this.nextSibling.innerText === '커르다스 중앙고지' ){
         img.src = 'map/Coerthas_Central_Highlands/' + this.firstChild.firstChild.innerText + '.jpg';
     }
+    //HW
     else if( this.nextSibling.innerText === '아지스 라' )
         img.src = 'map/Azys_Lla/' + this.firstChild.firstChild.innerText + '.jpg';
+    //SB
     else if( this.nextSibling.innerText === '레이크랜드' )
         img.src = 'map/Lakeland/' + this.firstChild.firstChild.innerText + '.jpg';
     else if( this.nextSibling.innerText === '라케티카 대삼림' )
@@ -436,6 +439,7 @@ function viewMap(){
         img.src = 'map/Kholusia/' + this.firstChild.firstChild.innerText + '.jpg';
     else if( this.nextSibling.innerText === '템페스트' )
         img.src = 'map/The_Tempest/' + this.firstChild.firstChild.innerText + '.jpg';
+    //EW
     else if( this.nextSibling.innerText === '사베네어' )
         img.src = 'map/Thavnair/' + this.firstChild.firstChild.innerText + '.jpg';
     else if( this.nextSibling.innerText === '갈레말드' )
@@ -446,6 +450,19 @@ function viewMap(){
         img.src = 'map/Elpis/' + this.firstChild.firstChild.innerText + '.jpg';
     else if( this.nextSibling.innerText === '울티마 툴레' )
         img.src = 'map/Ultima_Thule/' + this.firstChild.firstChild.innerText + '.jpg';
+    //DT
+    else if( this.nextSibling.innerText === '오르코 파차' )
+        img.src = 'map/Urqopacha/' + this.firstChild.firstChild.innerText + '.jpg';
+    else if( this.nextSibling.innerText === '코자말루 카' )
+        img.src = 'map/Kozamauka/' + this.firstChild.firstChild.innerText + '.jpg';
+    else if( this.nextSibling.innerText === '야크텔 밀림' )
+        img.src = 'map/YakTel/' + this.firstChild.firstChild.innerText + '.jpg';
+    else if( this.nextSibling.innerText === '샬로니 황야' )
+        img.src = 'map/Shaaloani/' + this.firstChild.firstChild.innerText + '.jpg';
+    else if( this.nextSibling.innerText === '헤리티지 파운드' )
+        img.src = 'map/Heritage_Found/' + this.firstChild.firstChild.innerText + '.jpg';
+    else if( this.nextSibling.innerText === '리빙 메모리' )
+        img.src = 'map/Living_Memory/' + this.firstChild.firstChild.innerText + '.jpg';
     else
         for( let key in DATA)
         {

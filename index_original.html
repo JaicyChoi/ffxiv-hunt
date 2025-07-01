@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+  <title>FF14 필드 마물 검색</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media_query.css">
+  <link rel="shortcut icon" href="ico/favicon.ico">
+  <script src="js/notice.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/hunt_story.js"></script>
+</head>
+<body id='top'>
+  <header>
+    <h1 class="title"><span class="title_color">S</span>earch</h1>
+  </header>
+  <div class="patch_version">
+    <p>Current patch ver. : <span>v6.58</span></p>
+  </div>
+  <div class="notice_btn_wrapper">
+    <button class="notice_btn">NOTICE<sup class="notice_dot">●</sup></button>
+    <button class="guide_btn">GUIDE</button>
+  </div>
+  <div class="notice_wrapper">
+    <button class="close_btn"></button>
+    <div class="notice_content">
+      <p class="content_text"></p>
+    </div>
+  </div>
+  <div class="contents">
+    <form class="search-form" name="search">
+      <input class="search" placeholder="마물 이름, 드랍 아이템, ..." type="text" name="keywords" onkeypress="enter(this.form)">
+      <div class="delete_value"></div>
+      <button class="submit">Go</button>
+      <p class="keywords_guide">더욱 다양한 검색어 옵션은 좌측 상단 <span>GUIDE</span>를 참고해주세요.</p>
+    </form>
+    <div class="results"></div>
+  </div>
+  <div id='layer'>
+    <div class='layer_content'></div>
+  </div>
+  <a href='#top' class="top_button"><img src="icon/top_button.png" alt="top button"></a>
+  <footer>Contact : 그라하티아@초코보 / Discord Jaicy#0892 / jaicychoi@gmail.com</footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+  <script src="js/script.js"></script>
+</body>
+</html>
