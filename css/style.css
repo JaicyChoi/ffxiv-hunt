@@ -102,7 +102,13 @@ body::-webkit-scrollbar {
 }
 .notice_dot{
     position: absolute;
-    color: red;
+    color: rgb(0, 255, 76);
+    font-size: 0.3em;
+    top:-6px;
+}
+.notice_dot2{
+    position: relative;
+    color: rgb(0, 255, 76);
     font-size: 0.3em;
     top:-6px;
 }
