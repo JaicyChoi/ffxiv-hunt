@@ -342,7 +342,7 @@ let DATA = {
         {level: '89', hunt: false, name: '성계 와이번', location: '울티마 툴레', coordinate: '( 7.0, 18.0 )', drop: ['<a href=\'https://ff14.tar.to/item/view/36262\' target=\'_blank\'>뒤나미스 샤드</a>']},
         {level: '89', hunt: true, name: '떠도는 이아', location: '울티마 툴레', coordinate: '( 20.0, 11.1 )', drop: '&nbsp'},
         {level: '89', hunt: true, name: '루미니언', location: '울티마 툴레', coordinate: '( 18.9, 11.3 )', drop: '&nbsp'},
-        {level: '89', hunt: true, name: '다른 존재', location: '울티마 툴레', coordinate: '( 15.5, 12.5 )', drop: '&nbsp'},
+        {level: '89', hunt: true, name: '다른 존재', location: '울티마 툴레', coordinate: '( 15.5, 12.5 )', drop: ['<a href=\'https://ff14.tar.to/item/view/36262\' target=\'_blank\'>뒤나미스 샤드</a>']},
         {level: '89', hunt: true, name: '레벨 혼란기', location: '울티마 툴레', coordinate: '( 31.9, 25.0 )', drop: '&nbsp'},
         {level: '89', hunt: true, name: '고장난 오미크론', location: '울티마 툴레', coordinate: '( 30.3, 26.1 )', drop: '&nbsp'},
         {level: '89', hunt: true, name: '델타', location: '울티마 툴레', coordinate: '( 34.9, 27.7 )', drop: '&nbsp'},
