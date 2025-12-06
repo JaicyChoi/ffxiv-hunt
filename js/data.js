@@ -382,7 +382,7 @@ let DATA = {
         {level: '77', hunt: true, name: '모래도롱뇽', location: '아므 아랭', coordinate: '( 23.7, 31.6 )', drop: '&nbsp'},
         {level: '77', hunt: true, name: '화염 조누르', location: '아므 아랭', coordinate: '( 27.0, 34.7 )', drop: ['<a href=\'https://ff14.tar.to/item/view/27735\' target=\'_blank\'>조누르 생가죽</a>']},
         {level: '77', hunt: true, name: '긴꼬리 아르마딜로', location: '아므 아랭', coordinate: '( 15.2, 29.7 )', drop: '&nbsp', blu: true, skill: ['No.107 방패막이']},
-        {level: '77', hunt: true, name: '단단비늘 아르마딜로', location: '아므 아랭', coordinate: '( 32.6, 9.3 )', drop: '&nbsp', blu: true, skill: ['No.108 보습']},
+        {level: '77', hunt: true, name: '단단비늘 아르마딜로', location: '아므 아랭', coordinate: '( 32.6, 9.3 )', drop: '&nbsp', blu: true, skill: ['No.107 방패막이']},
         {level: '77', hunt: true, name: '주인 없는 탈로스', location: '아므 아랭', coordinate: '( 11.5, 31.5 )', drop: '&nbsp'},
         {level: '80', hunt: 'B', name: '학살 곡예마', location: '아므 아랭', coordinate: '지도 참조', drop: '&nbsp', nickname: '학살의 곡예사'},
         {level: '80', hunt: 'B', name: '우물지렁이', location: '아므 아랭', coordinate: '지도 참조', drop: '&nbsp', nickname: '큰 우물의 거룡'},
