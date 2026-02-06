@@ -51,7 +51,7 @@ let DATA = {
         {level: '92', hunt: true, name: '작은 아폴리온', location: '코자말루 카', coordinate: '( 10.5, 22.1 )', drop: ['<a href=\'https://ff14.tar.to/item/view/44069\' target=\'_blank\'>작은 아폴리온 갑각</a>']},
         {level: '92', hunt: true, name: '밀림 이구아나', location: '코자말루 카', coordinate: '( 14.9, 26.5 )', drop: '&nbsp'},
         {level: '92', hunt: true, name: '투랄 네차흐', location: '코자말루 카', coordinate: '( 8.7, 28.3 )', drop: '&nbsp'},
-        {level: '92', hunt: false, name: '투랄 몰볼', location: '코자말루 카', coordinate: '( 17.6, 33.0 )', drop: '&nbsp'},
+        {level: '92', hunt: true, name: '투랄 몰볼', location: '코자말루 카', coordinate: '( 17.6, 33.0 )', drop: '&nbsp'},
         {level: '92', hunt: true, name: '토마톤', location: '코자말루 카', coordinate: '( 7.9, 32.8 )', drop: '&nbsp'},
         {level: '92', hunt: true, name: '쌍살벌', location: '코자말루 카', coordinate: '( 36.4, 35.1 )', drop: '&nbsp'},
         {level: '100', hunt: 'B', name: '충각악어', location: '코자말루 카', coordinate: '지도 참조', drop: '&nbsp', nickname: '숲의 돌격대'},
