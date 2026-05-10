@@ -949,6 +949,7 @@ let DATA = {
         {level: '13', hunt: true, name: '마타가이가이', location: '검은장막 숲 중부삼림', coordinate: '( 20.7, 30.4 )', drop: '&nbsp', fate: true, title: '병을 퍼뜨리는 요괴꽃'},
         {level: '14', hunt: 'log', name: '나무 민달팽이', location: '검은장막 숲 중부삼림', coordinate: '( 15.5, 24.4 )', drop: ['<a href=\'https://ff14.tar.to/item/view/5495\' target=\'_blank\'>민달팽이 점액</a>']},
         {level: '14', hunt: true, name: '루 카르콜', location: '검은장막 숲 중부삼림', coordinate: '( 14.9, 25.1 )', drop: '&nbsp', fate: true, title: '물컹한 대식가'},
+        {level: '14', hunt: false, name: '게슌페스트', location: '검은장막 숲 중부삼림', coordinate: '( 19.5, 27.7 )', drop: '&nbsp'},
         {level: '30', hunt: 'log', name: '알 품는 지즈', location: '검은장막 숲 중부삼림', coordinate: '( 15.7, 20.3 )', drop: '&nbsp'},
         {level: '31', hunt: 'log', name: '린드부름', location: '검은장막 숲 중부삼림', coordinate: '( 13.1, 19.0 )', drop: ['<a href=\'https://ff14.tar.to/item/view/5310\' target=\'_blank\'>랍토르 생가죽</a>', '<a href=\'https://ff14.tar.to/item/view/5322\' target=\'_blank\'>랍토르 힘줄</a>', '<a href=\'https://ff14.tar.to/item/view/4767\' target=\'_blank\'>랍토르 다릿살</a>']},
         {level: '31', hunt: 'log', name: '스트로퍼', location: '검은장막 숲 중부삼림', coordinate: '( 13.5, 22.1 )', drop: ['<a href=\'https://ff14.tar.to/item/view/5554\' target=\'_blank\'>몰볼 덩굴</a>'], blu: true, skill: ['No.28 역한 입냄새']},
